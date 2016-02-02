@@ -1,0 +1,25 @@
+{
+  "name": "jamb0t",
+  "version": "0.0.1",
+  "description": "Node project for the jamb0t dubtrack.fm bot",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codecone/jamb0t.git"
+  },
+  "keywords": [
+    "jamb0t",
+    "dubtrack.fm"
+  ],
+  "author": "Codecone",
+  "bugs": {
+    "url": "https://github.com/codecone/jamb0t/issues"
+  },
+  "homepage": "https://github.com/codecone/jamb0t",
+  "dependencies": {
+    "express": "4.13.4"
+  },
+  "devDependencies": {
+    "gulp": "3.9.0"
+  }
+}
