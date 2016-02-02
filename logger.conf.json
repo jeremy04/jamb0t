@@ -1,0 +1,12 @@
+{
+    "replaceConsole": true,
+    "appenders": [
+        {
+            "type": "console",
+            "layout": {
+                "type": "pattern",
+                "pattern": "%[[%d] jamb0t [%p] %c -%] %m"
+            }
+        }
+    ]
+}
