@@ -4,9 +4,9 @@ var gulp = require('gulp'),
 // defaul task
 gulp.task('default', ['server:start'], function () {
 
-    // watch for changes
-    gulp.watch( [ 
-        './index.js',
+    // watch server files for changes
+    gulp.watch([ 
+        './babel.js',
         './config/*.json',
         './app/app.js', 
         './app/src/server/**/*.js' 
@@ -17,7 +17,7 @@ gulp.task('default', ['server:start'], function () {
 // start server
 gulp.task('server:start', function () {
     server.listen({
-        path: './index.js',
+        path: './babel.js',
         env: {
             port: 3332,
             NODE_ENV: 'dev'

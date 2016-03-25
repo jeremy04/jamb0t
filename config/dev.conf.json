@@ -3,7 +3,7 @@
         "username": "",
         "password": "",
         "database": "jamb0t",
-        "host": "",
+        "host": "localhost",
         "options": {
             "dialect": "postgres"
         }

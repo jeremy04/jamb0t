@@ -1,3 +1,11 @@
 {
-    
+    "sequelize": {
+        "username": "",
+        "password": "",
+        "database": "jamb0t",
+        "host": "",
+        "options": {
+            "dialect": "postgres"
+        }
+    }
 }
